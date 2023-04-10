@@ -717,7 +717,7 @@ img {
     transition: opacity 300ms linear, visibility 300ms linear;
 }
 .modal {
-    width: 408px;
+    width: 100%;
     min-height: 584px;
     background: #FCFCFC;
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -867,6 +867,7 @@ img {
     letter-spacing: 0.04em;
     color: #8E8F99;
     display: flex;
+    flex-wrap: wrap;
     gap: 8px;
     display: flex;
     align-items: center;
